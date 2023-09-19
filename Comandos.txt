@@ -1,0 +1,14 @@
+git init - Iniciar GIT (STAGE)
+git status - Verificar status dos arquivos no diretorio git
+git add <file> - Adicionar arquivo ao diretorio git, user 'diretorio/.' para adicionar um diretorio ou usar o '.' para adicionar todos os arquivos
+git rm <file> - Recomer um arquivo: -r para diretorio de forma recursiva e -f para forçar remoção
+git mv <file> <diretory or file name> - Mover arquivo para um diretorio ou renomear
+git checkout <diretory or file name> - Desfazer alterações do arquivo ou diretorio
+
+criar arquivo ".gitignore" e no conteudo dele ter os diretorios para o git ignorar
+tail .gitignore para listar os diretorios/arquivos ignorados
+
+git commit -m "Commit inicial do projeto" - Executar o commit para colocar os arquivos do (STAGE) no diretorio git
+
+git remote add origin "https://github.com/FMXXVIII/gitTest.git"(URL GITHUB) -- Link o diretorio local ao diretorio do github
+git remote - lista os repositorios remotos, adicionar -v para ver detalhes
