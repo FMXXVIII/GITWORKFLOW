@@ -19,3 +19,9 @@ git pull origin <branch> - para pegar os arquivos do diretorio remoto e trazer p
 git push origin <branch>
 
 git clone https://github.com/FMXXVIII/GITWORKFLOW.git(URL GITHUB) - Clonar diretorio do github
+
+git log - ver o log de commit do dretorio #Gera uma hash
+git log -n <qtd de logs gerados>
+git log --oneline <lista de commit resumida>
+git log --stat <resumo do que aconteceu>
+git log --oneline --decorate --parents <lista de commit resumida>
