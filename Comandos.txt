@@ -17,3 +17,5 @@ git remote remove origin - excluir link de repositorio remoto
 
 git pull origin <branch> - para pegar os arquivos do diretorio remoto e trazer para o local --allow-unrelated-histories
 git push origin <branch>
+
+git clone https://github.com/FMXXVIII/GITWORKFLOW.git(URL GITHUB) - Clonar diretorio do github
