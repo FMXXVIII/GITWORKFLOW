@@ -12,3 +12,8 @@ git commit -m "Commit inicial do projeto" - Executar o commit para colocar os ar
 
 git remote add origin "https://github.com/FMXXVIII/gitTest.git"(URL GITHUB) -- Link o diretorio local ao diretorio do github
 git remote - lista os repositorios remotos, adicionar -v para ver detalhes
+git remote remove origin - excluir link de repositorio remoto
+
+
+git pull origin <branch> - para pegar os arquivos do diretorio remoto e trazer para o local --allow-unrelated-histories
+git push origin <branch>
