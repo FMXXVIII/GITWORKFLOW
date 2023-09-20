@@ -30,3 +30,11 @@ git diff --staged - mostrar as linhas apagadas ou criadas por arquivo no stage(g
 git diff <hash> - procurar diff do commit com o hash do commit
 git diff <hash>..<hash> - procurar diff do commit ao outro com o hash do commit
 git diff <hash>~<qtd para trás> - procurar diff do commit com o hash do commit para os commits passados
+
+git branch <nome da branch> -- cria uma branch
+git checkout <nome da branch> -- entra na uma branch
+git checkout -b <nome da branch> -- cria uma branch e entra
+git branch -d <nome da branch> -- Deleta uma branch (se não houver commit, para forçar o delete utilizar -D(D MAIUSCULO)) 
+####################################################
+###BRANCH SELECIONADA ALTERA OS ARQUIVOS LISTADOS###
+####################################################
