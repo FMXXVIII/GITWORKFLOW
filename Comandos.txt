@@ -38,3 +38,7 @@ git branch -d <nome da branch> -- Deleta uma branch (se não houver commit, para
 ####################################################
 ###BRANCH SELECIONADA ALTERA OS ARQUIVOS LISTADOS###
 ####################################################
+git branch --no-merged - lista as branchs nao mescladas com a bransh principal (manter uma para ter o projeto organizado)
+git branch --merged - lista as branchs mescladas com a bransh principal (manter uma para ter o projeto organizado)
+
+git merge <branch> -m "<mensagem>"
