@@ -42,3 +42,10 @@ git branch --no-merged - lista as branchs nao mescladas com a bransh principal (
 git branch --merged - lista as branchs mescladas com a bransh principal (manter uma para ter o projeto organizado)
 
 git merge <branch> -m "<mensagem>"
+
+
+git branch -r -Listar branch do repositorio remoto(GITHUB)
+
+git fetch origin - parametrizar commits
+
+git merge origin/master -m "merge remote"
