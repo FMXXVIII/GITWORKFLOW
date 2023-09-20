@@ -27,3 +27,4 @@ git log --stat <resumo do que aconteceu>
 git log --oneline --decorate --parents <lista de commit resumida>
 
 git diff - mostrar as linhas apagadas ou criadas por arquivo
+git diff --staged - mostrar as linhas apagadas ou criadas por arquivo no stage(git add)
