@@ -25,3 +25,5 @@ git log -n <qtd de logs gerados>
 git log --oneline <lista de commit resumida>
 git log --stat <resumo do que aconteceu>
 git log --oneline --decorate --parents <lista de commit resumida>
+
+git diff - mostrar as linhas apagadas ou criadas por arquivo
