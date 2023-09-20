@@ -14,7 +14,6 @@ git remote add origin "https://github.com/FMXXVIII/gitTest.git"(URL GITHUB) -- L
 git remote - lista os repositorios remotos, adicionar -v para ver detalhes
 git remote remove origin - excluir link de repositorio remoto
 
-
 git pull origin <branch> - para pegar os arquivos do diretorio remoto e trazer para o local --allow-unrelated-histories
 git push origin <branch>
 
@@ -28,3 +27,6 @@ git log --oneline --decorate --parents <lista de commit resumida>
 
 git diff - mostrar as linhas apagadas ou criadas por arquivo
 git diff --staged - mostrar as linhas apagadas ou criadas por arquivo no stage(git add)
+git diff <hash> - procurar diff do commit com o hash do commit
+git diff <hash>..<hash> - procurar diff do commit ao outro com o hash do commit
+git diff <hash>~<qtd para trás> - procurar diff do commit com o hash do commit para os commits passados
