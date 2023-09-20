@@ -49,3 +49,31 @@ git branch -r -Listar branch do repositorio remoto(GITHUB)
 git fetch origin - parametrizar commits
 
 git merge origin/master -m "merge remote"
+
+git tag <tag> <hash> - tag para versão
+git tag -d <tag> - deletar tag
+
+git push <tag> - upload das tags para download do projetonaquela tag
+git push origin --tags - upload de todas as tags
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
